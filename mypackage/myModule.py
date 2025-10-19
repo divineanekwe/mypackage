@@ -11,7 +11,7 @@ def top_n (items, n):
     
     Examples:
         >>> top_n([8,3,2,7,4], 3)
-        [8,7,3]
+        [8,7,4]
     """
     n = min(n, len(items))  # check n against the list length first.
 
