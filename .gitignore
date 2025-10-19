@@ -1,2 +1,15 @@
-mypackage.egg-info
-mypackage/__pycache__
+# Excluding Build Files: .gitignore
+# --- Build Artifacts ---
+/build/
+/dist/
+/*.egg-info/
+/htmlcov/
+
+# --- Environment and Dependencies ---
+__pycache__/
+.pytest_cache/
+.tox/
+
+# --- OS and Editor Files ---
+.DS_Store
+.vscode/
